@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<medialist>
+  <category name="Movies">
+    <record>
+      <title>Pulp Fiction</title>
+      <genre>Crime/Drama</genre>
+      <director>Quentin Tarantino</director>
+      <year>1994</year>
+      <duration>2h58min</duration>
+      <comments>Recommended by Aris</comments>
+    </record>
+    <record>
+      <title>Titanic</title>
+      <genre>Drama</genre>
+      <director/>
+      <year>1997</year>
+      <duration>3h</duration>
+      <comments>very good</comments>
+    </record>
+    <record>
+      <title>The Aeronauts</title>
+      <genre>Drama</genre>
+      <director/>
+      <year>1997</year>
+      <duration>3h</duration>
+      <comments/>
+    </record>
+    <record>
+      <title>Titanic</title>
+      <genre>re</genre>
+      <director/>
+      <year>er</year>
+      <duration>er</duration>
+      <comments/>
+    </record>
+    <record>
+      <title>Titanic</title>
+      <genre>Drama</genre>
+      <director/>
+      <year>===</year>
+      <duration>---</duration>
+      <comments/>
+    </record>
+  </category>
+  <category name="Series">
+    <record>
+      <title>The Dark Crystal: age of resistance</title>
+      <genre>Fantasy</genre>
+      <director>Louis Leterrier</director>
+      <year>2019</year>
+      <duration/>
+      <comments>Available on Netlix</comments>
+    </record>
+  </category>
+  <category name="Documentaries"/>
+</medialist>list>
