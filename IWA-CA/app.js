@@ -1,3 +1,5 @@
+//the code below is available on: https://github.com/mikhail-cct/CA1-In-class-Demo
+
 var http = require('http'),
     path = require('path'),
     express = require('express'),
