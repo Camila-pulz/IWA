@@ -1,4 +1,4 @@
-//the code below is available on: https://github.com/mikhail-cct/CA1-In-class-Demo
+//these code were written by Mikhail Timofeev. Code available on https://github.com/mikhail-cct/CA1-In-class-Demo
 
 function draw_table(){
     $("#results").empty();

@@ -1,6 +1,5 @@
-var express = require('express'),//already on app.js
-var router = express(),//already on app.js
-var check = require('express-validator'),//already on app.js
+//the code below was written based on the code available on: https://flaviocopes.com/express-validate-input/
+
 var validationResult = require('express-validator');//already on app.js
 
 router.use(express.json())//already on app.js

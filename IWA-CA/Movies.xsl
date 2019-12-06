@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<!-- the code below was written from Mikhail Timofeev code available on https://github.com/mikhail-cct/CA1-In-class-Demo -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
  <xsl:template match="/">
 <table id="mediaBucket" border="1" class="indent">

@@ -1,13 +1,14 @@
-//the code below is available on: https://github.com/mikhail-cct/CA1-In-class-Demo
+//the code below was written by Mikhail Timofeev. Code available on https://github.com/mikhail-cct/CA1-In-class-Demo
+//and some parts were written during his lectures at CCT Dublin College.
 
-var http = require('http'),
-    path = require('path'),
-    express = require('express'),
-    fs = require('fs'),
-    xmlParse = require('xslt-processor').xmlParse,
-    xsltProcess = require('xslt-processor').xsltProcess,
-    xml2js = require('xml2js'),
-    autosanitizer = require('express-autosanitizer');
+var http = require('http'), //http module installed
+    path = require('path'), //module installed
+    express = require('express'), //module installed
+    fs = require('fs'), //module installed
+    xmlParse = require('xslt-processor').xmlParse, //module installed
+    xsltProcess = require('xslt-processor').xsltProcess, //module installed
+    xml2js = require('xml2js'), //module installed
+    autosanitizer = require('express-autosanitizer');//module installed
 
 var router = express();
 var server = http.createServer(router);
@@ -17,7 +18,7 @@ router.use(express.urlencoded({extended: true}));
 router.use(express.json());
 router.use(autosanitizer.allUnsafe);
 
-function xmlFileToJs(filename, cb) {
+function xmlFileToJs(filename, cb) { //function to convert xml into json to be used on the add and deletion
   var filepath = path.normalize(path.join(__dirname, filename));
   fs.readFile(filepath, 'utf8', function(err, xmlStr) {
     if (err) throw (err);
@@ -25,7 +26,7 @@ function xmlFileToJs(filename, cb) {
   });
 }
 
-function jsToXmlFile(filename, obj, cb) {
+function jsToXmlFile(filename, obj, cb) { //convert the JSON file into XML again 
   var filepath = path.normalize(path.join(__dirname, filename));
   var builder = new xml2js.Builder();
   var xml = builder.buildObject(obj);
@@ -76,7 +77,6 @@ router.post('/post/json', function(req, res) {
 
   };
 
- 
   appendJSON(req.body);
 
   
@@ -85,13 +85,6 @@ router.post('/post/json', function(req, res) {
 });
 
    
-
-    
- 
-
-
-
-
 router.post('/post/delete', function(req, res) {
 
   // Function to read in a JSON file, add to it & convert to XML
