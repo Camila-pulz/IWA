@@ -12,33 +12,17 @@
     <record>
       <title>Titanic</title>
       <genre>Drama</genre>
-      <director/>
+      <director>James Cameron</director>
       <year>1997</year>
       <duration>3h</duration>
-      <comments>very good</comments>
+      <comments/>
     </record>
     <record>
       <title>The Aeronauts</title>
       <genre>Drama</genre>
-      <director/>
-      <year>1997</year>
-      <duration>3h</duration>
-      <comments/>
-    </record>
-    <record>
-      <title>Titanic</title>
-      <genre>re</genre>
-      <director/>
-      <year>er</year>
-      <duration>er</duration>
-      <comments/>
-    </record>
-    <record>
-      <title>Titanic</title>
-      <genre>Drama</genre>
-      <director/>
-      <year>===</year>
-      <duration>---</duration>
+      <director>I dont know</director>
+      <year>2019</year>
+      <duration>104 min</duration>
       <comments/>
     </record>
   </category>
@@ -52,5 +36,22 @@
       <comments>Available on Netlix</comments>
     </record>
   </category>
-  <category name="Documentaries"/>
-</medialist>list>
+  <category name="Documentaries">
+    <record>
+      <title>The Dark Crystal: age of resistance</title>
+      <genre>Fantasy</genre>
+      <director>Louis Leterrier</director>
+      <year>2019</year>
+      <duration/>
+      <comments>Available on Netflix</comments>
+    </record>
+    <record>
+      <title>Rotten</title>
+      <genre>Drama</genre>
+      <director>I dont know</director>
+      <year>1997</year>
+      <duration>3h</duration>
+      <comments/>
+    </record>
+  </category>
+</medialist>
